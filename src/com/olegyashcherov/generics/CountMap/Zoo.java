@@ -61,7 +61,8 @@ public class Zoo implements CountMap<AnimalType> {
 
     @Override
     public void toMap(Map<AnimalType, Integer> destination) {
-        animalMap.clear();
-        animalMap.putAll(destination);
+        destination.putAll(animalMap);
+//        animalMap.clear();
+//        animalMap.putAll(destination);
     }
 }

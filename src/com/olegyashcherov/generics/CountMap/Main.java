@@ -76,6 +76,8 @@ public class Main {
 
         Map<AnimalType, Integer> map = new HashMap<>();
         zooB.toMap(map);
+        System.out.println("************** Исправление ********************");
+        System.out.println(map);
 
 //        System.out.println("В зоопарке Б количество животных вида " + giraffe + " - " + zooB.getCount(giraffe));
         System.out.println("В зоопарке Б количество животных вида " + elephant + " - " + zooB.getCount(elephant));
